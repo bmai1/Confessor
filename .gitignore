@@ -1,0 +1,26 @@
+# general
+.vscode
+.DS_Store
+
+# assets
+assets
+images
+audio
+saves
+tl
+cache
+*.jpg
+*.jpeg
+*.png
+*.svg
+*.webp
+*.gif
+*.ttf
+
+# compile
+*.rpyc
+
+# debug
+errors.txt
+log.txt
+traceback.txt

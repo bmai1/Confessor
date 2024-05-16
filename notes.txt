@@ -1,0 +1,10 @@
+Ren'Py documentation notes:
+
+- NVL mode (multiple lines on the screen at a time)
+    > https://www.renpy.org/doc/html/nvl_mode.html
+
+
+- To change where text starts appearing: 
+    > edit gui.nvl_borders = Borders(?, ?, ?, ?) in gui.rpy
+
+- Change fonts in gui.rpy

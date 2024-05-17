@@ -10,9 +10,9 @@ label start:
 
     scene black
 
-    # play music "audio/Track 1 - Return to Slumber.mp3"
+    play music "audio/Track 0 - Koi Suru Hachi.mp3" fadeout 1.0
 
-    pause 2
+    pause 0.5
 
     show text "\"I hope you're happier with the state of your life than I am with mine.\"" at truecenter
     with dissolve
@@ -22,7 +22,7 @@ label start:
 
     "I suppose I'm lucky that my life isn't bad."
 
-    "I don't feel particularly dissatisfied with it, nor do I have any regrets about how I've spent it so far.\n"
+    "I'm not particularly unhappy with it, nor do I have any regrets about how I've spent it so far.\n"
 
     "The only thing is..."
 
@@ -46,17 +46,27 @@ label start:
 
     "But as the days drift by, the seasons change, and my youth slips through my fingertips, her words hold out as a rare truth in a world full of lies."
 
-    "I'm suffocating."
-    
-    "I feel blinded, not by guilt or regret, but by a thorough lack of purpose."
-
-    nvl clear
-
     "She's not my therapist anymore, by the way."
     
     "It felt insulting to myself to continue paying for something like therapy, especially when all I got out of it was bullshit anyone could figure out themselves."
     
-    "I suppose I also saw it as the reaffirmation of my lack of independence, relying on the guidance of others to figure out my own emotions."
+    "I guess I also saw it as the reaffirmation of my lack of independence, relying on the guidance of others to figure out my own emotions."
+
+    nvl clear 
+
+    scene room (grey) with dissolve 
+
+    pause 0.7
+
+    "I'm suffocating."
+    
+    "I feel blinded, not by guilt or regret, but by a thorough lack of purpose."
+
+    "Sometimes it's terrifying, wading into the abyss that is adulthood, all alone in the depths of despair."
+
+    "I desperately need to find a reason to keep on living."
+
+    "I'm grasping, reaching, crying out for help."
 
     nvl clear
 
@@ -66,8 +76,34 @@ label start:
 
     "I don't want to die, but I don't want anything, really."
 
+    "No...{w=1.0}there are so, so many things that I want, that I never know what I need."
+
     "I think the only thing that keeps me going these days is knowing that I know nothing." 
     
     "It's this awful ignorance of mine that I so despise which keeps me up at night yet gives me the strength to wake up in the morning."
+
+    nvl clear
     
+    "This might sound childish, I know, but I'm not yet ready to die."
+
+    "I want to learn as much as I can about the things I enjoy before I grow old and forgetful;"
+
+    "I want to love and hate and cry and laugh;"
+
+    "I want to experience as many different stories as I can before the story of my own life ends."
+    
+    nvl clear
+
+    "That's not to say I fear Death, however. I know I could come to love her if she held me gently in her arms and told me to forget about all the responsibilities of life."
+
+    "I have always believed that Death's younger sister, Misery, has a tendency to knock on the doors of the weak."
+
+    "She's like...a disease that only violates those who accepts her and let her in with open arms."
+
+    "A master manipulator of the foolish, she is."
+
+    "It's curious; I cannot recall a day where I've noticed a distinct lack of her presence from my life."
+
+    "I'm now so familiar with her embrace that I can no longer distinguish between my muddy feelings of love and loathing for this emptiness that comes from being around her."
+
     return

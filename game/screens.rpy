@@ -264,7 +264,8 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = True
+# bottom bar
+default quick_menu = False
 
 style quick_button is default
 style quick_button_text is button_text

@@ -207,3 +207,7 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+
+define config.screen_width = 800
+define config.screen_height = 600

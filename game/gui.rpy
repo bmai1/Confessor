@@ -64,7 +64,7 @@ define gui.name_text_font = "fonts/sazanami-gothic.ttf"
 define gui.interface_text_font = "fonts/sazanami-gothic.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 33
+define gui.text_size = 15
 
 ## The size of character names.
 define gui.name_text_size = 45
@@ -360,7 +360,7 @@ define gui.history_text_xalign = 0.0
 ## The NVL-mode screen displays the dialogue spoken by NVL-mode characters.
 
 ## The borders of the background of the NVL-mode background window.
-define gui.nvl_borders = Borders(0, 100, 0, 30)
+define gui.nvl_borders = Borders(60, 100, 0, 30)
 
 ## The maximum number of NVL-mode entries Ren'Py will display. When more entries
 ## than this are to be show, the oldest entry will be removed.
@@ -384,14 +384,14 @@ define gui.nvl_name_xalign = 1.0
 ## The position, width, and alignment of the dialogue text.
 define gui.nvl_text_xpos = 675
 define gui.nvl_text_ypos = 12
-define gui.nvl_text_width = 885
+define gui.nvl_text_width = 600
 define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by the
 ## nvl_narrator character.)
-define gui.nvl_thought_xpos = 360
-define gui.nvl_thought_ypos = 10
-define gui.nvl_thought_width = 1170
+define gui.nvl_thought_xpos = 15
+define gui.nvl_thought_ypos = 0
+define gui.nvl_thought_width = 600
 define gui.nvl_thought_xalign = 0.0
 
 ## The position of nvl menu_buttons.

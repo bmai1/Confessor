@@ -26,7 +26,7 @@ init python:
 define gui.accent_color = '#000000'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#aaaaaa'
+define gui.idle_color = '#ffffff'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
@@ -48,7 +48,7 @@ define gui.muted_color = '#666666'
 define gui.hover_muted_color = '#999999'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#404040'
+define gui.text_color = '#ffffff'
 define gui.interface_text_color = '#404040'
 
 
@@ -390,7 +390,7 @@ define gui.nvl_text_xalign = 0.0
 ## The position, width, and alignment of nvl_thought text (the text said by the
 ## nvl_narrator character.)
 define gui.nvl_thought_xpos = 360
-define gui.nvl_thought_ypos = 0
+define gui.nvl_thought_ypos = 10
 define gui.nvl_thought_width = 1170
 define gui.nvl_thought_xalign = 0.0
 

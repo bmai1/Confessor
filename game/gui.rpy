@@ -231,8 +231,8 @@ define gui.slot_button_text_selected_idle_color = gui.selected_color
 define gui.slot_button_text_selected_hover_color = gui.hover_color
 
 ## The width and height of thumbnails used by the save slots.
-define config.thumbnail_width = 384
-define config.thumbnail_height = 216
+define config.thumbnail_width = 50
+define config.thumbnail_height = 50
 
 ## The number of columns and rows in the grid of save slots.
 define gui.file_slot_cols = 3
@@ -246,7 +246,7 @@ define gui.file_slot_rows = 2
 
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
-define gui.navigation_xpos = 60
+define gui.navigation_xpos = 20
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 15
@@ -255,13 +255,13 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 33
+define gui.choice_spacing = 0
 
 ## Buttons in the navigation section of the main and game menus.
-define gui.navigation_spacing = 6
+define gui.navigation_spacing = 10
 
 ## Controls the amount of spacing between preferences.
-define gui.pref_spacing = 15
+define gui.pref_spacing = 5
 
 ## Controls the amount of spacing between preference buttons.
 define gui.pref_button_spacing = 0
@@ -273,7 +273,7 @@ define gui.page_spacing = 0
 define gui.slot_spacing = 15
 
 ## The position of the main menu text.
-define gui.main_menu_text_xalign = 1.0
+define gui.main_menu_text_xalign = 0.5
 
 
 ## Frames ######################################################################

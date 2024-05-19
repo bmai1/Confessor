@@ -3,16 +3,16 @@
 
 # image kuro = "images/scene/kuro.jpg"
 
-label main_menu:
-    return
+# label main_menu:
+   
 
 label start:
 
     scene black
 
-    play music "audio/Track 0 - Koi Suru Hachi.mp3" fadeout 1.0
+    play music "audio/Track 0 - Koi Suru Hachi.mp3" fadeout 3.0
 
-    pause 0.5
+    pause 3.5
 
     show text "\"I hope you're happier with the state of your life than I am with mine.\"" at truecenter
     with dissolve
@@ -94,7 +94,9 @@ label start:
     
     nvl clear
 
-    "That's not to say I fear Death, however. I know I could come to love her if she held me gently in her arms and told me to forget about all the responsibilities of life."
+    "That's not to say I fear Death, however."
+    
+    "I know I could come to love her if she held me gently in her arms and told me to forget about all the responsibilities of life."
 
     "I have always believed that Death's younger sister, Misery, has a tendency to knock on the doors of the weak."
 
@@ -106,4 +108,8 @@ label start:
 
     "I'm now so familiar with her embrace that I can no longer distinguish between my muddy feelings of love and loathing for this emptiness that comes from being around her."
 
+    window hide dissolve
+
     return
+
+label title_screen:
